@@ -1,0 +1,22 @@
+docker swarm
+===============
+docker swarm join-token manager
+
+docker swarm join-token worker
+
+promote worker to manager
+=========================
+docker node promote worker
+
+demote
+======
+docker node demote worker
+
+remove permanently worker
+==========================
+ docker node rm worker
+
+again add worker
+=================
+copy the worker token id from manager, then paste it on worker server
+

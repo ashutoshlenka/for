@@ -1,0 +1,16 @@
+docker file
+=================
+1.FROM - used for the base image(ubuntu)
+2.MAINTAINER - name of the person/organiser who create the file
+3.RUN - used for running LINUX cmd within the image
+4.VOLUME - automatically create some volumes
+5.ARGS - by args the founder put environment variables on docker image
+6.EXPOSE - by expose we do container ports maping 
+7.COPY - copy file from host machine into the image we are creating
+8.ADD - it copy file and also download file from remote server
+9.WHOAMI - used to tell which user we have login into server
+10.STOPSIGNAL - which keyword to stop the container ()
+11.LABEL - used to give some additional information about the containerin in key value pair like-who create,when createed it   
+12.SHELL - it is the interaction medium between the kernel and user (like- burne,ksh,bash shell) but in our case which shell is going to be used is called shell
+13.CMD - every container we start a trigger one perticular process is called as default process of conatainer .that process is used by CMD and ENTRY POINT
+14.ENTRYPOINT - 
